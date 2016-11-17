@@ -34,3 +34,26 @@ Depends On
   - RSelenium (<b>install.packages(RSelenium)</b> from within R)
 2. PhantomJS (Download at http://phantomjs.org/download) 
 3. Selenium Server Standalone (Download at http://www.seleniumhq.org/download/)
+
+UPDATES
+=======
+There could be two different types of updates to the code.
+
+1. Package update: Anytime the general functionality of the package changes. 
+	- For a Package update, refer to the setup instructions above.
+2. Script update: Anytime the RemoteDriver.R script changes to handle website changes or feature updates.
+	- For a Script update, replace the existing RemoteDriver.R file with the updated version.
+
+
+
+UPDATE LOG
+==========
+Version 1.1.1 push to GitHub
+	- All subsequent updates will be tracked on GitHub
+Version 1.1.1 release
+	- Current, mostly stable release. 
+	- Updates to RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about 
+Version 1.1.0 release
+	- Updated package to handle multiple user accounts, centralized user input into BingScript_EntryPoint.R.
+Version 1.0.0 release
+	- Initial distribution
