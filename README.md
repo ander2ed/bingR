@@ -33,4 +33,4 @@ Depends On
 1. R (Download at https://cran.r-project.org/)
   - RSelenium (<b>install.packages(RSelenium)</b> from within R)
 2. PhantomJS (Download at http://phantomjs.org/download) 
-3. Selenium Standalone Server
+3. Selenium Server Standalone (Download at http://www.seleniumhq.org/download/)
