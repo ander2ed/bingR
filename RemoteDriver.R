@@ -48,9 +48,9 @@ for(k in 1:length(emails)) {
 	for(i in 1:length(dailyLinks)) {
 		currentSearch <- toString(dailyLinks[i])
 		rd$navigate(currentSearch)
-		Sys.sleep(1)
+		Sys.sleep(3)
 		rd$goBack()
-		Sys.sleep(1)
+		Sys.sleep(3)
 		message('Completed Daily Link ', i, ' for user ', users[k])
 		flush.console()
 	}
@@ -67,6 +67,8 @@ for(k in 1:length(emails)) {
 	
 	Sys.sleep(1.5)
 	
+	
+	#Add error handling here so it doesn't stop completely if the pause doesn't work.
 	#Loop over search terms in list, search for each one, pause 2 seconds, go back to search page, continue.
 	for(i in 1:30) {
 		searchBar <- rd$findElement(using = "id", 'sb_form_q')
@@ -75,11 +77,9 @@ for(k in 1:length(emails)) {
 		searchBar$sendKeysToElement(list(""))
 		searchBar$sendKeysToElement(list(currentSearch))
 		searchBtn$clickElement()
-		Sys.sleep(1.5)
-		rd$goBack()
 		message('Completed Search Term ', i, ' (', currentSearch, ')', ' for user ', users[k])
 		flush.console()
-		Sys.sleep(1.5)
+		Sys.sleep(3)
 	}
 	
 	rd$close()
@@ -87,7 +87,6 @@ for(k in 1:length(emails)) {
 }
 
 q(save="no")
-
 
 
 
