@@ -43,8 +43,10 @@ There could be two different types of updates to the package.
 
 UPDATE LOG
 ==========
+Version 1.1.1 push to GitHub
+	- All subsequent updates will be tracked by GitHub
 Version 1.1.1 release
-	- Current, stable release. 
+	- Current, mostly stable release. 
 	- Updates to RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about 
 Version 1.1.0 release
 	- Updated package to handle multiple user accounts, centralized user input into BingScript_EntryPoint.R.
