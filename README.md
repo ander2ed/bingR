@@ -50,14 +50,11 @@ UPDATE LOG
 ==========
 
 Version 1.1.1 push to GitHub<br>
-<p style="margin-leftt: 10px">- All subsequent updates will be tracked on GitHub</p>
-	
+- All subsequent updates will be tracked on GitHub<br>	
 Version 1.1.1 release<br>
 	- Current, mostly stable release. 
-	- Updates RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about 
-	
+	- Updates RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about<br>	
 Version 1.1.0 release<br>
-	- Updated package to handle multiple user accounts, centralized user input into BingScript_EntryPoint.R.
-	
+	- Updated package to handle multiple user accounts, centralized user input into BingScript_EntryPoint.R.<br>	
 Version 1.0.0 release<br>
 	- Initial distribution
