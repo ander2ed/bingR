@@ -25,8 +25,8 @@ emails <- c("Email_For_User1@outlook.com", "Email_For_User2@Outlook.com")
 pws <- c("PaSsWoRd_For_User_1", "PaSsWoRd_For_User_2")
 
 phantomjs.path <- "C:/Program Files/Phantomjs/phantomjs-2.1.1-windows/bin/phantomjs.exe"
-search.term.vector <- "C:/BingSearcher/SearchTermVector.R"
-search.script <- "C:/Users/Ed/Documents2/BingSearcher/RemoteDriver.R"
+search.term.vector <- "C:/Path/To/SearchTermVector.R"
+search.script <- "C:/Path/To/RemoteDriver.R"
 ########## End Modifications
 
 
