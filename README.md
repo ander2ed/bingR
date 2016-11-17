@@ -49,15 +49,15 @@ There could be two different types of updates to the code.
 UPDATE LOG
 ==========
 
-Version 1.1.1 push to GitHub<br>
+<b>Version 1.1.1</b> push to GitHub<br>
 - All subsequent updates will be tracked on GitHub
 	
-Version 1.1.1 release<br>
+<b>Version 1.1.1</b> release<br>
 - Current, mostly stable release. 
 - Updates RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about	
 	
-Version 1.1.0 release<br>
+<b>Version 1.1.0</b> release<br>
 - Updated package to handle multiple user accounts, centralized user input into BingScript_EntryPoint.R.
 	
-Version 1.0.0 release<br>
+<b>Version 1.0.0</b> release<br>
 - Initial distribution
