@@ -49,11 +49,14 @@ There could be two different types of updates to the code.
 UPDATE LOG
 ==========
 
+<b>Version 1.1.2</b> release<br>
+- Current, mostly stable release.
+- Updates RemoteDriver.R to accomodate changes to login process. Now navigates to login.live.com and ignores accounts.microsoft.com
+
 <b>Version 1.1.1</b> push to GitHub<br>
 - All subsequent updates will be tracked on GitHub
 	
 <b>Version 1.1.1</b> release<br>
-- Current, mostly stable release. 
 - Updates RemoteDriver.R to accomodate changes to login process at accounts.microsoft.com/about	
 	
 <b>Version 1.1.0</b> release<br>
