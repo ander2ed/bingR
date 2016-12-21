@@ -13,9 +13,10 @@ for(k in 1:length(emails)) {
 	rd$open()
 	Sys.sleep(5)
 	#Navigate to Sign in page, Sign in using credentials.
-	rd$navigate('https://account.microsoft.com/about')
-	signInButton <- rd$findElement(using = "id", 'sign-in-link')
-	signInButton$clickElement()
+	rd$navigate('https://login.live.com')
+	# No longer use below element, navigate directly to sign in page.	
+	##signInButton <- rd$findElement(using = "id", 'sign-in-link')
+	##signInButton$clickElement()
 	
 	email <- emails[k]
 	uid <- rd$findElement(using = "id", 'i0116')
@@ -87,6 +88,7 @@ for(k in 1:length(emails)) {
 }
 
 q(save="no")
+
 
 
 
