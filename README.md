@@ -49,8 +49,11 @@ There could be two different types of updates to the code.
 UPDATE LOG
 ==========
 
+<b>Version 1.1.3</b> release<br>
+- current, mostly stable release. 
+- added fix to RemoteDriver.R for if no daily links were found on the web page via xpath. Previously would crash.  
+
 <b>Version 1.1.2</b> release<br>
-- Current, mostly stable release.
 - Updates RemoteDriver.R to accomodate changes to login process. Now navigates to login.live.com and ignores accounts.microsoft.com
 
 <b>Version 1.1.1</b> push to GitHub<br>
