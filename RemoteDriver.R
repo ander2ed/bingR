@@ -42,15 +42,13 @@ for(k in 1:length(emails)) {
 	
 	Links <- rd$findElements(using = "xpath", "//a[contains(@href,'/rewardsapp/redirect?url=')]")
 	
-	print(length(Links))
-	
+		
 	dailyLinks <- sapply(Links, function(x){x$getElementAttribute('href')})
 	
 	searchTerms <- length(dailyLinks) + 30
 	if(length(dailyLinks) > 0) {
 	  for(i in 1:length(dailyLinks)) {
 		  currentSearch <- toString(dailyLinks[i])
-		  print(currentSearch)
 		  rd$navigate(currentSearch)
 		  message('Completed Daily Link ', i, ' for user ', users[k])
 		  flush.console()
